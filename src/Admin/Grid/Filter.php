@@ -119,7 +119,7 @@ class Filter implements FilterInterface
     }
 
     /**
-     * @return Collection|LengthAwarePaginator
+     * @return QueryBuilder|QueryBuilder[]|\Illuminate\Database\Eloquent\Collection|LengthAwarePaginator|mixed
      */
     public function loadItems()
     {
